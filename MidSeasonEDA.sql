@@ -18,6 +18,7 @@ Skills used include joins, case statements, group by, order by, agreggate functi
 -- )
 
 -- *insert csv files into TotalOffense and TotalDefense tables*
+-- Data sourced from (https://www.ncaa.com/stats/football/fbs)
 
 -- Select all the data from the tables
 
