@@ -1,6 +1,6 @@
 # Data Analyst Portfolio Projects
 
-Compilation of SQL and Python Data Analysis projects
+Compilation of SQL, Tableau and Python Data Analysis projects
 
 # Projects
 
