@@ -29,26 +29,26 @@ SELECT * FROM CFB.TotalDefense;
 
 SELECT CFB.TotalDefense.Team, CFB.TotalDefense.WL, 
 CASE 
-WHEN CFB.TotalDefense.WL LIKE '0%' THEN 0
-WHEN CFB.TotalDefense.WL LIKE '1%' THEN 1
-WHEN CFB.TotalDefense.WL LIKE '2%' THEN 2
-WHEN CFB.TotalDefense.WL LIKE '3%' THEN 3
-WHEN CFB.TotalDefense.WL LIKE '4%' THEN 4
-WHEN CFB.TotalDefense.WL LIKE '5%' THEN 5
-WHEN CFB.TotalDefense.WL LIKE '6%' THEN 6
-WHEN CFB.TotalDefense.WL LIKE '7%' THEN 7
-WHEN CFB.TotalDefense.WL LIKE '8%' THEN 8
+	WHEN CFB.TotalDefense.WL LIKE '0%' THEN 0
+	WHEN CFB.TotalDefense.WL LIKE '1%' THEN 1
+	WHEN CFB.TotalDefense.WL LIKE '2%' THEN 2
+	WHEN CFB.TotalDefense.WL LIKE '3%' THEN 3
+	WHEN CFB.TotalDefense.WL LIKE '4%' THEN 4
+	WHEN CFB.TotalDefense.WL LIKE '5%' THEN 5
+	WHEN CFB.TotalDefense.WL LIKE '6%' THEN 6
+	WHEN CFB.TotalDefense.WL LIKE '7%' THEN 7
+	WHEN CFB.TotalDefense.WL LIKE '8%' THEN 8
 END as WINS,
 CASE 
-WHEN CFB.TotalDefense.WL LIKE '%0' THEN 0
-WHEN CFB.TotalDefense.WL LIKE '%1' THEN 1
-WHEN CFB.TotalDefense.WL LIKE '%2' THEN 2
-WHEN CFB.TotalDefense.WL LIKE '%3' THEN 3
-WHEN CFB.TotalDefense.WL LIKE '%4' THEN 4
-WHEN CFB.TotalDefense.WL LIKE '%5' THEN 5
-WHEN CFB.TotalDefense.WL LIKE '%6' THEN 6
-WHEN CFB.TotalDefense.WL LIKE '%7' THEN 7
-WHEN CFB.TotalDefense.WL LIKE '%8' THEN 8
+	WHEN CFB.TotalDefense.WL LIKE '%0' THEN 0
+	WHEN CFB.TotalDefense.WL LIKE '%1' THEN 1
+	WHEN CFB.TotalDefense.WL LIKE '%2' THEN 2
+	WHEN CFB.TotalDefense.WL LIKE '%3' THEN 3
+	WHEN CFB.TotalDefense.WL LIKE '%4' THEN 4
+	WHEN CFB.TotalDefense.WL LIKE '%5' THEN 5
+	WHEN CFB.TotalDefense.WL LIKE '%6' THEN 6
+	WHEN CFB.TotalDefense.WL LIKE '%7' THEN 7
+	WHEN CFB.TotalDefense.WL LIKE '%8' THEN 8
 END as LOSSES
 FROM CFB.TotalDefense
 ORDER BY WINS desc, LOSSES;
