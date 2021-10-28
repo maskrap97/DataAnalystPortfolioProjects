@@ -1,3 +1,9 @@
+/*
+NCAA Football 2021 Midseason Data Exploration
+
+Skills used include joins, case statements, group by, order by, agreggate functions and CTEs
+*/
+
 -- CREATE TABLE CFB.TotalOffense (
 -- Rank int, Team varchar(100), G int,
 -- WL varchar(3), Plays int, YDS int,
