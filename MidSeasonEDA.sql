@@ -154,6 +154,3 @@ GROUP BY Conference
 ORDER BY AVG(YdsperPlayDiff) desc;
 
 
-
-
-
