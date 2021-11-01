@@ -5,7 +5,7 @@ Compilation of SQL, Tableau, and Python Data Analysis projects
 # Projects
 
 ## [NCAA Football Data Exploration (SQL)](https://github.com/maskrap97/DataAnalystPortfolioProjects/blob/main/MidSeasonEDA.sql)
-**skills used** (*joins, case statements, group by, order by, agreggate functions and CTEs*)
+**skills used** (*joins, case statements, aliases, group by, order by, agreggate functions and CTEs*)
 
 MySQL project utilizing DBeaver database tool for finding useful metrics at the halfway point of the 2021 college football season such as:
 
@@ -16,6 +16,7 @@ MySQL project utilizing DBeaver database tool for finding useful metrics at the 
 * Conference based rankings for each of the previous three metrics
 
 ## [US Crime SQL Queries for Tableau Data Visualization](https://github.com/maskrap97/DataAnalystPortfolioProjects/blob/main/UScrime_Tableau.sql)
+**skills used** (*distinct, where in, aliases, group by, order by, agreggate functions and CTEs*)
 
 MySQL queries utilizing DBeaver database tool for Data Visualization including:
 
