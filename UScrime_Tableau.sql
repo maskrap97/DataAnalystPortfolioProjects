@@ -67,7 +67,7 @@ ORDER BY 1, 2;
 -- Select average total crime in each state from 1960-2019
 
 SELECT UScrime.state.State, 
-AVG(UScrime.state.PropertyTotal + UScrime.state.ViolentTotal) as TotalCrime
+AVG(UScrime.state.PropertyTotal + UScrime.state.ViolentTotal) as AvgTotalCrime
 FROM UScrime.state
 WHERE State NOT IN ('District of Columbia', 'United States')
 GROUP BY UScrime.state.State
@@ -82,7 +82,7 @@ UScrime.state.PropertyTotal + UScrime.state.ViolentTotal as TotalCrime
 FROM UScrime.state
 )
 
-SELECT CTE_total.State, AVG(CTE_total.TotalCrime/(CTE_total.Population/100000)) as TotalCrimeRate
+SELECT CTE_total.State, AVG(CTE_total.TotalCrime/(CTE_total.Population/100000)) as AvgTotalCrimeRate
 FROM CTE_total
 WHERE CTE_total.State NOT IN ('District of Columbia', 'United States')
 GROUP BY CTE_total.State
@@ -90,7 +90,7 @@ ORDER BY 2 desc;
 
 -- Select average violent crime rate in each state from 1960-2019
 
-SELECT UScrime.state.State, AVG(UScrime.state.ViolentRate)
+SELECT UScrime.state.State, AVG(UScrime.state.ViolentRate) as AvgViolentRate
 FROM UScrime.state
 WHERE State NOT IN ('District of Columbia', 'United States')
 GROUP BY State
@@ -98,7 +98,7 @@ ORDER BY 2 desc;
 
 -- Select average total murders per year in each state from 1960-2019
 
-SELECT UScrime.state.State, AVG(UScrime.state.MurderTotal)
+SELECT UScrime.state.State, AVG(UScrime.state.MurderTotal) as AvgMurderTotal
 FROM UScrime.state
 WHERE State NOT IN ('District of Columbia', 'United States')
 GROUP BY State 
