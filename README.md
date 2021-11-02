@@ -25,4 +25,5 @@ MySQL queries utilizing DBeaver database tool for Data Visualization including:
 * Average crime rates in each state
 * Total murders in each state
 * Average murders per year in each state
+
 [Tableau Dashboard using SQL queries](https://public.tableau.com/app/profile/sam.park1295/viz/UnitedStatesCrime1960-2019/UnitedStatesCrime)
