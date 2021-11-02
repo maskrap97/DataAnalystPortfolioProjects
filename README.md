@@ -27,3 +27,17 @@ MySQL queries utilizing DBeaver database tool for Data Visualization including:
 * Average murders per year in each state
 
 [Tableau Dashboard using SQL queries](https://public.tableau.com/app/profile/sam.park1295/viz/UnitedStatesCrime1960-2019/UnitedStatesCrime)
+
+## [House Price Data Analysis and Modeling (Python)](https://github.com/maskrap97/DataAnalystPortfolioProjects/blob/main/MidSeasonEDA.sql)
+**libraries and skills used** (*pandas, numpy, matplotlib, scikitlearn, seaborn, dealing with null values, distribution plots, scatter plots, correlation heat maps, lasso regression*)
+
+Python project using Kaggle dataset for residential housing in Ames, Iowa which includes:
+
+* Cleaning data and dealing with null values (pandas)
+* Using logorithmic tranformation for normal distribution (numpy)
+* Visualizing data with histograms, scatter plots, and heat maps (matplotlib, seaborn)
+* Creating dummy variables for categorical data
+* Selecting important parameters for modeling
+
+[Kaggle Markdown explaining code from data analysis and modeling](https://www.kaggle.com/maskrap97/easy-to-follow-eda-and-machine-learning-python?scriptVersionId=68357698)
+[Web App which serves machine learning model with FlaskAPI and AWSec2](http://ec2-54-215-122-77.us-west-1.compute.amazonaws.com:5000)
