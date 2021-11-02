@@ -40,4 +40,5 @@ Python project using Kaggle dataset for residential housing in Ames, Iowa which 
 * Selecting important parameters for modeling
 
 [Kaggle Markdown explaining code from data analysis and modeling](https://www.kaggle.com/maskrap97/easy-to-follow-eda-and-machine-learning-python?scriptVersionId=68357698)
+
 [Web App which serves machine learning model with FlaskAPI and AWSec2](http://ec2-54-215-122-77.us-west-1.compute.amazonaws.com:5000)
