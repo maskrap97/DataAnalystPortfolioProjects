@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Created on Thu Jun 24 13:05:56 2021
+Python Data Analysis and Machine Learning Model using Kaggle dataset for residential housing in Ames, Iowa.
 
-@author: sampark
+Data Source(https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
 """
 
 import numpy as np
