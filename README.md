@@ -28,7 +28,7 @@ MySQL queries utilizing DBeaver database tool for Data Visualization including:
 
 [Tableau Dashboard using SQL queries](https://public.tableau.com/app/profile/sam.park1295/viz/UnitedStatesCrime1960-2019/UnitedStatesCrime)
 
-## [House Price Data Analysis and Modeling (Python)](https://github.com/maskrap97/DataAnalystPortfolioProjects/blob/main/MidSeasonEDA.sql)
+## [House Price Data Analysis and Modeling (Python)](https://github.com/maskrap97/DataAnalystPortfolioProjects/blob/main/House_price.ipynb)
 **libraries and skills used** (*pandas, numpy, matplotlib, scikitlearn, seaborn, dealing with null values, distribution plots, scatter plots, correlation heat maps, lasso regression*)
 
 Python project using Kaggle dataset for residential housing in Ames, Iowa which includes:
